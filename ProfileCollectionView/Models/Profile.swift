@@ -10,5 +10,5 @@ import UIKit
 class Profile: NSObject {
     var name = String()
     var desc = String()
-    var image =  String()
+    var image = String()
 }

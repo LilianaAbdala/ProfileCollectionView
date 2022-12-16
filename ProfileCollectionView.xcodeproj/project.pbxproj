@@ -17,12 +17,15 @@
 		4D911CC02948ECA90012D6A1 /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D911CBF2948ECA90012D6A1 /* BaseCell.swift */; };
 		4D911CC22948EEBB0012D6A1 /* ProfileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D911CC12948EEBB0012D6A1 /* ProfileCollectionViewCell.swift */; };
 		4D911CC72948F66F0012D6A1 /* UiView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D911CC62948F66F0012D6A1 /* UiView+Extension.swift */; };
-		4D911CC9294A0BE50012D6A1 /* planetaterra.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D911CC8294A0BE50012D6A1 /* planetaterra.png */; };
-		4D911CCC294A16F80012D6A1 /* MainTaBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D911CCB294A16F80012D6A1 /* MainTaBarViewController.swift */; };
-		4D911CCF294A184C0012D6A1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D911CCE294A184C0012D6A1 /* HomeViewController.swift */; };
-		4D911CD1294A187B0012D6A1 /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D911CD0294A187B0012D6A1 /* UpcomingViewController.swift */; };
-		4D911CD3294A18990012D6A1 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D911CD2294A18990012D6A1 /* SearchViewController.swift */; };
-		4D911CD5294A18AE0012D6A1 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D911CD4294A18AE0012D6A1 /* DownloadsViewController.swift */; };
+		4D911CDB294A43150012D6A1 /* jupiterimg.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D911CDA294A43150012D6A1 /* jupiterimg.png */; };
+		4D911CDD294A4A6D0012D6A1 /* terraimg.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D911CDC294A4A6D0012D6A1 /* terraimg.png */; };
+		4D911CDF294A4A960012D6A1 /* marteimg.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D911CDE294A4A960012D6A1 /* marteimg.png */; };
+		4D911CE1294B4AC90012D6A1 /* netunoimg.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D911CE0294B4AC90012D6A1 /* netunoimg.png */; };
+		4D911CE3294B4B540012D6A1 /* venusimg.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D911CE2294B4B540012D6A1 /* venusimg.png */; };
+		4D911CE5294B4BEF0012D6A1 /* mercurioimg.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D911CE4294B4BEF0012D6A1 /* mercurioimg.png */; };
+		4D911CE7294B4D700012D6A1 /* uranoimg.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D911CE6294B4D700012D6A1 /* uranoimg.png */; };
+		4D911CE9294B4E180012D6A1 /* saturnoimg.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D911CE8294B4E180012D6A1 /* saturnoimg.png */; };
+		4DEC8D0D294CD9AA0011CC3F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEC8D0C294CD9AA0011CC3F /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,12 +41,15 @@
 		4D911CBF2948ECA90012D6A1 /* BaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
 		4D911CC12948EEBB0012D6A1 /* ProfileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCollectionViewCell.swift; sourceTree = "<group>"; };
 		4D911CC62948F66F0012D6A1 /* UiView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UiView+Extension.swift"; sourceTree = "<group>"; };
-		4D911CC8294A0BE50012D6A1 /* planetaterra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planetaterra.png; sourceTree = "<group>"; };
-		4D911CCB294A16F80012D6A1 /* MainTaBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTaBarViewController.swift; sourceTree = "<group>"; };
-		4D911CCE294A184C0012D6A1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		4D911CD0294A187B0012D6A1 /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
-		4D911CD2294A18990012D6A1 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
-		4D911CD4294A18AE0012D6A1 /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
+		4D911CDA294A43150012D6A1 /* jupiterimg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jupiterimg.png; sourceTree = "<group>"; };
+		4D911CDC294A4A6D0012D6A1 /* terraimg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = terraimg.png; sourceTree = "<group>"; };
+		4D911CDE294A4A960012D6A1 /* marteimg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marteimg.png; sourceTree = "<group>"; };
+		4D911CE0294B4AC90012D6A1 /* netunoimg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = netunoimg.png; sourceTree = "<group>"; };
+		4D911CE2294B4B540012D6A1 /* venusimg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = venusimg.png; sourceTree = "<group>"; };
+		4D911CE4294B4BEF0012D6A1 /* mercurioimg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mercurioimg.png; sourceTree = "<group>"; };
+		4D911CE6294B4D700012D6A1 /* uranoimg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uranoimg.png; sourceTree = "<group>"; };
+		4D911CE8294B4E180012D6A1 /* saturnoimg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = saturnoimg.png; sourceTree = "<group>"; };
+		4DEC8D0C294CD9AA0011CC3F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,15 +84,21 @@
 			children = (
 				4D911CC52948F5A90012D6A1 /* Commons */,
 				4D911C982948BE4F0012D6A1 /* Models */,
-				4D911C972948BE480012D6A1 /* Views */,
 				4D911C962948BE390012D6A1 /* Controllers */,
 				4D911C822948BE160012D6A1 /* AppDelegate.swift */,
 				4D911C842948BE160012D6A1 /* SceneDelegate.swift */,
 				4D911C882948BE160012D6A1 /* Main.storyboard */,
 				4D911C8B2948BE170012D6A1 /* Assets.xcassets */,
-				4D911CC8294A0BE50012D6A1 /* planetaterra.png */,
 				4D911C8D2948BE170012D6A1 /* LaunchScreen.storyboard */,
 				4D911C902948BE170012D6A1 /* Info.plist */,
+				4D911CDA294A43150012D6A1 /* jupiterimg.png */,
+				4D911CDC294A4A6D0012D6A1 /* terraimg.png */,
+				4D911CDE294A4A960012D6A1 /* marteimg.png */,
+				4D911CE0294B4AC90012D6A1 /* netunoimg.png */,
+				4D911CE2294B4B540012D6A1 /* venusimg.png */,
+				4D911CE4294B4BEF0012D6A1 /* mercurioimg.png */,
+				4D911CE6294B4D700012D6A1 /* uranoimg.png */,
+				4D911CE8294B4E180012D6A1 /* saturnoimg.png */,
 			);
 			path = ProfileCollectionView;
 			sourceTree = "<group>";
@@ -95,8 +107,6 @@
 			isa = PBXGroup;
 			children = (
 				4D911C862948BE160012D6A1 /* ProfileViewController.swift */,
-				4D911CCB294A16F80012D6A1 /* MainTaBarViewController.swift */,
-				4D911CCD294A18280012D6A1 /* Controllers */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -106,6 +116,7 @@
 			children = (
 				4D911CBF2948ECA90012D6A1 /* BaseCell.swift */,
 				4D911CC12948EEBB0012D6A1 /* ProfileCollectionViewCell.swift */,
+				4DEC8D0C294CD9AA0011CC3F /* SecondViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -113,6 +124,7 @@
 		4D911C982948BE4F0012D6A1 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				4D911C972948BE480012D6A1 /* Views */,
 				4D911C9D2948BEC40012D6A1 /* Profile.swift */,
 			);
 			path = Models;
@@ -124,17 +136,6 @@
 				4D911CC62948F66F0012D6A1 /* UiView+Extension.swift */,
 			);
 			path = Commons;
-			sourceTree = "<group>";
-		};
-		4D911CCD294A18280012D6A1 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				4D911CCE294A184C0012D6A1 /* HomeViewController.swift */,
-				4D911CD0294A187B0012D6A1 /* UpcomingViewController.swift */,
-				4D911CD2294A18990012D6A1 /* SearchViewController.swift */,
-				4D911CD4294A18AE0012D6A1 /* DownloadsViewController.swift */,
-			);
-			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,9 +197,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D911C8F2948BE170012D6A1 /* LaunchScreen.storyboard in Resources */,
+				4D911CE1294B4AC90012D6A1 /* netunoimg.png in Resources */,
+				4D911CDF294A4A960012D6A1 /* marteimg.png in Resources */,
 				4D911C8C2948BE170012D6A1 /* Assets.xcassets in Resources */,
-				4D911CC9294A0BE50012D6A1 /* planetaterra.png in Resources */,
 				4D911C8A2948BE160012D6A1 /* Main.storyboard in Resources */,
+				4D911CE5294B4BEF0012D6A1 /* mercurioimg.png in Resources */,
+				4D911CE9294B4E180012D6A1 /* saturnoimg.png in Resources */,
+				4D911CE3294B4B540012D6A1 /* venusimg.png in Resources */,
+				4D911CE7294B4D700012D6A1 /* uranoimg.png in Resources */,
+				4D911CDB294A43150012D6A1 /* jupiterimg.png in Resources */,
+				4D911CDD294A4A6D0012D6A1 /* terraimg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,16 +218,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D911C872948BE160012D6A1 /* ProfileViewController.swift in Sources */,
-				4D911CD3294A18990012D6A1 /* SearchViewController.swift in Sources */,
-				4D911CD5294A18AE0012D6A1 /* DownloadsViewController.swift in Sources */,
 				4D911C9E2948BEC40012D6A1 /* Profile.swift in Sources */,
 				4D911CC72948F66F0012D6A1 /* UiView+Extension.swift in Sources */,
 				4D911C832948BE160012D6A1 /* AppDelegate.swift in Sources */,
+				4DEC8D0D294CD9AA0011CC3F /* SecondViewController.swift in Sources */,
 				4D911CC02948ECA90012D6A1 /* BaseCell.swift in Sources */,
-				4D911CCF294A184C0012D6A1 /* HomeViewController.swift in Sources */,
 				4D911CC22948EEBB0012D6A1 /* ProfileCollectionViewCell.swift in Sources */,
-				4D911CCC294A16F80012D6A1 /* MainTaBarViewController.swift in Sources */,
-				4D911CD1294A187B0012D6A1 /* UpcomingViewController.swift in Sources */,
 				4D911C852948BE160012D6A1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
