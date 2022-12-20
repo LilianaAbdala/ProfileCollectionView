@@ -11,7 +11,7 @@ class ProfileViewController: UIViewController {
     
     let searchController = UISearchController()
     
-        @IBOutlet weak var CollectionView: UICollectionView!
+        @IBOutlet weak var collectionView: UICollectionView!
     private let cellId = "cellId"
     var profiles: [Profile]?
     
@@ -22,9 +22,10 @@ class ProfileViewController: UIViewController {
         
         title = "Planetas"
         navigationItem.searchController = searchController
-        CollectionView.delegate = self
-        CollectionView.dataSource = self
-        CollectionView.register(ProfileCollectionViewCell.self, forCellWithReuseIdentifier: cellId)
+        
+        collectionView.delegate = self
+        collectionView.dataSource = self
+        collectionView.register(ProfileCollectionViewCell.self, forCellWithReuseIdentifier: cellId)
         
         populateProfiles()
     }
@@ -110,8 +111,15 @@ extension ProfileViewController: UICollectionViewDelegate, UICollectionViewDataS
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-            if indexPath.row == 0 {
-                print("Funciona")
+        
+        if let secondViewController = storyboard?.instantiateViewController(withIdentifier: "SecondViewController") as? SecondViewController {
+            
+            secondViewController.getIndexPath(index: indexPath.row)
+            present(secondViewController, animated: true)
+        }
+        
+           // if indexPath.row == 0 {
+                //print("Funciona")
             }
         }
-    }
+    

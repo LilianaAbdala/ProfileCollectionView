@@ -30,7 +30,6 @@ class ProfileCollectionViewCell: BaseCell {
         
     }()
     
-    
     lazy var imageView: UIImageView = {
         let imageView = UIImageView()
         imageView.image = UIImage()
