@@ -9,12 +9,14 @@ import UIKit
 
 
 class SecondViewController: UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
     func getIndexPath(index: Int) {
         print("funciona : ", index)
+        
     }
 }
 

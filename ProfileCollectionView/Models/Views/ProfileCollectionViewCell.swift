@@ -12,6 +12,7 @@ class ProfileCollectionViewCell: BaseCell {
     var profile: Profile? {
         
         didSet {
+            
             lblName.text = profile?.name
             lblDesc.text = profile?.desc
             imageView.image = UIImage(named: profile?.image ?? "terraimg")
@@ -27,8 +28,7 @@ class ProfileCollectionViewCell: BaseCell {
         view.layer.borderWidth = 2
         view.layer.borderColor = UIColor.black.cgColor
         return view
-        
-    }()
+    }() //funcionalidade, precisa do construtor.
     
     lazy var imageView: UIImageView = {
         let imageView = UIImageView()
@@ -37,7 +37,6 @@ class ProfileCollectionViewCell: BaseCell {
         imageView.layer.masksToBounds = true
         imageView.layer.cornerRadius = 10
         return imageView
-        
     }()
     
     lazy var lblName: UILabel = {
@@ -46,7 +45,6 @@ class ProfileCollectionViewCell: BaseCell {
         label.textColor = .white
         label.font = UIFont.boldSystemFont(ofSize: 25)
         return label
-        
     }()
     
     lazy var lblDesc: UILabel = {
@@ -64,8 +62,8 @@ class ProfileCollectionViewCell: BaseCell {
         container.addSubview(imageView)
         container.addSubview(lblName)
         container.addSubview(lblDesc)
-        
     }
+    
     override func addConstraints() {
         container.anchor(top: safeAreaLayoutGuide.topAnchor, leading: safeAreaLayoutGuide.leadingAnchor, bottom: safeAreaLayoutGuide.bottomAnchor, trailing: safeAreaLayoutGuide.trailingAnchor, padding: .init(top: 10, left: 10, bottom: 10, right: 10), size: .init(width: frame.width, height: 190))
         

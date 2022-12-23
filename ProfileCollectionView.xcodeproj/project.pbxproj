@@ -85,20 +85,9 @@
 				4D911CC52948F5A90012D6A1 /* Commons */,
 				4D911C982948BE4F0012D6A1 /* Models */,
 				4D911C962948BE390012D6A1 /* Controllers */,
-				4D911C822948BE160012D6A1 /* AppDelegate.swift */,
-				4D911C842948BE160012D6A1 /* SceneDelegate.swift */,
-				4D911C882948BE160012D6A1 /* Main.storyboard */,
-				4D911C8B2948BE170012D6A1 /* Assets.xcassets */,
-				4D911C8D2948BE170012D6A1 /* LaunchScreen.storyboard */,
+				4DA64E6629533F3C004C0F73 /* Delegates */,
+				4DA64E6829533FE9004C0F73 /* Resources */,
 				4D911C902948BE170012D6A1 /* Info.plist */,
-				4D911CDA294A43150012D6A1 /* jupiterimg.png */,
-				4D911CDC294A4A6D0012D6A1 /* terraimg.png */,
-				4D911CDE294A4A960012D6A1 /* marteimg.png */,
-				4D911CE0294B4AC90012D6A1 /* netunoimg.png */,
-				4D911CE2294B4B540012D6A1 /* venusimg.png */,
-				4D911CE4294B4BEF0012D6A1 /* mercurioimg.png */,
-				4D911CE6294B4D700012D6A1 /* uranoimg.png */,
-				4D911CE8294B4E180012D6A1 /* saturnoimg.png */,
 			);
 			path = ProfileCollectionView;
 			sourceTree = "<group>";
@@ -115,8 +104,10 @@
 		4D911C972948BE480012D6A1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4DA64E6729533F68004C0F73 /* Storyboard */,
 				4D911CBF2948ECA90012D6A1 /* BaseCell.swift */,
 				4D911CC12948EEBB0012D6A1 /* ProfileCollectionViewCell.swift */,
+				4D911C9D2948BEC40012D6A1 /* Profile.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -125,7 +116,6 @@
 			isa = PBXGroup;
 			children = (
 				4D911C972948BE480012D6A1 /* Views */,
-				4D911C9D2948BEC40012D6A1 /* Profile.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -136,6 +126,40 @@
 				4D911CC62948F66F0012D6A1 /* UiView+Extension.swift */,
 			);
 			path = Commons;
+			sourceTree = "<group>";
+		};
+		4DA64E6629533F3C004C0F73 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				4D911C822948BE160012D6A1 /* AppDelegate.swift */,
+				4D911C842948BE160012D6A1 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		4DA64E6729533F68004C0F73 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				4D911C882948BE160012D6A1 /* Main.storyboard */,
+				4D911C8D2948BE170012D6A1 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		4DA64E6829533FE9004C0F73 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4D911C8B2948BE170012D6A1 /* Assets.xcassets */,
+				4D911CE4294B4BEF0012D6A1 /* mercurioimg.png */,
+				4D911CDC294A4A6D0012D6A1 /* terraimg.png */,
+				4D911CE2294B4B540012D6A1 /* venusimg.png */,
+				4D911CDA294A43150012D6A1 /* jupiterimg.png */,
+				4D911CE6294B4D700012D6A1 /* uranoimg.png */,
+				4D911CDE294A4A960012D6A1 /* marteimg.png */,
+				4D911CE0294B4AC90012D6A1 /* netunoimg.png */,
+				4D911CE8294B4E180012D6A1 /* saturnoimg.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
